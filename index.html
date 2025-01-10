@@ -1,15 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio_page_for_photographer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <!-- Prompt 10  –  5/12//24
-Daily Promts:
 
-Create a portfolio page for a photographer using grid and flexbox.
- -->
+<body>
+    <!-- Prompt 10 -->
+    <!-- main  -->
+    <div class="main h-screen w-screen overflow-x-hidden">
+        <!-- nav -->
+        <div class="nav w-full  py-4 px-16 flex justify-between items-center px-[6em]">
+            <h2 class="text-3xl font-bold "><i class="ri-camera-fill"></i></h2>
+            <div class="nav_links  hidden md:inline  md:flex md:gap-12 md:items-center md:font-medium text-md">
+                <a class="" href="#">About</a>
+                <a class="" href="#">Gallery</a>
+                <a class="" href="#">Demo</a>
+                <a class="" href="#">Contact</a>
+            </div>
+            <i class=" text-white text-xl font-semibold ri-menu-3-fill md:hidden"></i>
+        </div>
+
+        <!--  hero section -->
+        <div class="w-full hero_section  py-2 px-[6em] ">
+            <div class="box">
+                <h1 class="text-lg my-2 font-semibold   md:text-xl">Explore.</h1>
+                <p class="text-base my-2  font-normal  md:text-lg w-[50%]">Capture Moments, Create Memories and Explore
+                    the world through my lens. Let's work together to create something memorable.</p>
+            </div>
+        </div>
+
+        <div class="w-full h-[70%] hero_section  py-2 px-[6em]  flex gap-4">
+            <div class="div w-1/2 h-full flex flex-col gap-4">
+                <div class="top w-full h-[40%]  flex justify-between ">
+                    <img class="h-full rounded-2xl" src="images/img1.png" alt="">
+                    <img class="h-full rounded-2xl" src="images/img4.png" alt="">
+                </div>
+                <div class="bottom w-full h-[60%]  flex justify-between ">
+                    <img class="h-full rounded-2xl" src="images/img2.png" alt="">
+                    <img class="h-full rounded-2xl" src="images/img8.png" alt="">
+                    <img class="h-full rounded-2xl" src="images/img3.png" alt="">
+                   
+                </div>
+            </div>
+            <div class="div w-1/2 h-full flex flex-col gap-4">
+                <div class="bottom w-full h-[60%]  flex  justify-between ">
+                    <img class="h-full rounded-2xl" src="images/img9.png" alt="">
+                    <img class="h-full rounded-2xl" src="images/img13.png" alt="">
+                    <img class="h-full rounded-2xl" src="images/img11.png" alt="">
+                   
+                </div>
+                <div class="top w-full h-[40%] flex justify-between ">
+                    <img class="h-full rounded-2xl" src="images/img12.png" alt="">
+                    <img class="h-full rounded-2xl" src="images/img14.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

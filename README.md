@@ -22,4 +22,4 @@ The purpose of this portfolio page is to showcase a photographer's work, provide
 
 ### Landing Page Design
 
-![Image](https://github.com/user-attachments/assets/1ebbabfb-3763-4fd8-8e3d-4364eee08b88)
+![Image](https://github.com/user-attachments/assets/e64579d4-e011-4d6e-8ff4-96c3ecc8edc5)
